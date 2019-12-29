@@ -1,0 +1,186 @@
+/*
+
+COLORS
+
+Orange - #D9601E
+Red - #B0413E
+Yellow - #F1B137
+Dark Blue - #12355B
+Light Blue - #2E86AB
+
+Grey - #444
+
+*/
+
+body {
+	font-family: 'Lato';
+	color: #444;
+	overflow-x: hidden;
+}
+
+#header {
+	width: 102vw;
+	margin-left: -2vw;
+	margin-top: -2vw;
+
+	position: relative;
+
+	padding-bottom: 15vh;
+
+}
+
+.splash {
+	width: 100%;
+	height: 40vh;
+
+	background-color: #2E86AB;
+
+	position: absolute;
+
+	transition: height .8s ease;
+
+}
+
+#lower_h {
+	display: flex;
+	flex-flow: row-reverse wrap;
+	justify-content: center;
+	align-items: center;
+
+	margin-left: 5vw;
+	margin-right: 5vw;
+	padding-top: 10vh;
+
+	z-index: 99;
+	position: relative;
+
+	/*opacity: 0.9;
+	background-color: green;*/
+	height: 60vh;
+	position: relative;
+}
+
+#lower_h div {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#title {
+	bottom: 0;
+	right: 0;
+
+	color: white;
+
+	text-align: center;
+
+	margin-left: 2vw;
+	margin-right: 2vw;
+}
+
+#title h1 {
+	text-transform: uppercase;
+	font-size: 4em;
+}
+
+
+#avatar {
+	width: calc(300px + 10vh);
+}
+
+#logo {
+	width: 100%;
+}
+
+#sub {
+	
+	float: right;
+	margin-right: 10vw;
+
+	width: 50%;
+
+	text-align: right;
+
+	margin-bottom: 5vh;
+
+}
+
+#sub h2 {
+	color: #12355B;
+}
+
+#sub p {
+	width: 90%;
+	float: right;
+}
+
+.body {
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+.orange {
+	color: #D9601E;
+}
+
+#featured {
+	width: 80%;
+	height: 25vh;
+
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.flex_div {
+	width: 300px;
+	height: 200px;
+
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+}
+#featured div {
+	
+	background-color: green;
+
+
+}
+
+#featured img {
+	width: 100%;
+}
+
+.projects_container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+/* ============= */
+
+@media (max-width: 700px) {
+
+	#lower_h {
+		padding-top: 0;
+	}
+	
+	#title {
+		margin-left: 0;
+		text-align: center;
+	}
+
+	#sub {
+		float: none;
+		text-align: left;
+
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#sub p {
+		width: 100%;
+	}
+}
+
