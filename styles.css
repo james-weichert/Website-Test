@@ -19,23 +19,24 @@ body {
 }
 
 #header {
-	width: 102vw;
-	margin-left: -2vw;
-	margin-top: -2vw;
+	width: 100vw;
 
-	position: relative;
+	margin-top: -2vw;
 
 	padding-bottom: 15vh;
 
 }
 
 .splash {
-	width: 100%;
+	margin-left: -2vw;
+	width: 102%;
 	height: 40vh;
 
 	background-color: #2E86AB;
 
 	position: absolute;
+
+	z-index: -99;
 
 	transition: height .8s ease;
 
@@ -47,22 +48,24 @@ body {
 	justify-content: center;
 	align-items: center;
 
-	margin-left: 5vw;
-	margin-right: 5vw;
+	margin-left: 3vw;
+	margin-right: 3vw;
 	padding-top: 10vh;
-
-	z-index: 99;
-	position: relative;
-
-	/*opacity: 0.9;
-	background-color: green;*/
-	height: 60vh;
-	position: relative;
 }
 
 #lower_h div {
 	padding-left: 1em;
 	padding-right: 1em;
+}
+
+#intro {
+	margin-top: 5vh;
+	width: 80%;
+
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+
 }
 
 #title {
@@ -92,70 +95,102 @@ body {
 }
 
 #sub {
-	
-	float: right;
-	margin-right: 10vw;
-
-	width: 50%;
-
-	text-align: right;
-
-	margin-bottom: 5vh;
-
+	width: 400px;
+	padding-bottom: 2vh;
 }
 
 #sub h2 {
+	color: #D9601E;
+}
+#sub h3 {
 	color: #12355B;
 }
 
 #sub p {
-	width: 90%;
-	float: right;
-}
-
-.body {
-	padding-left: 5vw;
-	padding-right: 5vw;
-}
-
-.orange {
-	color: #D9601E;
+	font-size: 1.2em;
 }
 
 #featured {
+	width: 400px;
+	height: 300px;
+}
+
+#arrow {
+	position: absolute;
+	font-size: 2em;
+
+	text-align: center;
+	width: 100vw;
+
+	color: #D9601E;
+}
+
+
+.project {
+	overflow: hidden;
+
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+
+	position: relative;
+}
+
+.project img {
+	width: 100%;
+	position: absolute;
+	top:-100%; left:0; right: 0; bottom:-100%;
+    margin: auto;
+}
+
+.body {
 	width: 80%;
-	height: 25vh;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.flex_div {
+	width: 250px;
+	height: 180px;
+
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+}
+.flex_div {
+	background-color: blue;
+}
+
+.projects_container {
+	width: 90%;
 
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
+	align-content: space-between;
 
 	margin-left: auto;
 	margin-right: auto;
 
 }
-.flex_div {
-	width: 300px;
-	height: 200px;
 
-	margin-top: 2vh;
-	margin-bottom: 2vh;
-}
-#featured div {
-	
-	background-color: green;
-
-
+.spacer {
+	height: 5vh;
 }
 
-#featured img {
-	width: 100%;
+#footer {
+
+	width: 100vw;
+	height: 10vh;
+
+	text-align: center;
+
+	color: #12355B;
 }
 
-.projects_container {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+.orange_hl {
+	background-color: #D9601E;
+	color: white;
 }
 
 /* ============= */
