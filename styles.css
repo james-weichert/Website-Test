@@ -446,6 +446,10 @@ a:hover {
 	#lower_h {
 		padding-top: 0vh;
 	}
+	#featured {
+		width: 350px;
+		height: 250px;
+	}
 
 	/*#title h1 {
 		font-size: 8em;
