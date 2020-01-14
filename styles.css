@@ -409,7 +409,7 @@ a:hover {
 
 /* ============= */
 
-@media (max-width: 700px) {
+/*@media (max-width: 700px) {
 
 	#title h1 {
 		font-size: 3.5em;
@@ -440,10 +440,14 @@ a:hover {
 		width: 7vw;
 		height: 7vw;
 	}
-}
+}*/
 
 @media (max-width: 1000px) and (orientation: portrait) {
-	#title h1 {
+	#lower_h {
+		padding-top: 0vh;
+	}
+
+	/*#title h1 {
 		font-size: 8em;
 	}
 
@@ -488,6 +492,6 @@ a:hover {
 	.home {
 		width: 7vw;
 		height: 7vw;
-	}
+	}*/
 }
 
