@@ -415,6 +415,10 @@ a:hover {
 
 .main_img {
 	width: 600px;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+
+	text-align: center;
 }
 .main_img img{
 	width: 100%;
