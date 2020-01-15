@@ -405,6 +405,21 @@ a:hover {
 	width: 100%;
 }
 
+.flex {
+	display: flex;
+	flex-flow: row-reverse wrap;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+}
+
+.main_img {
+	width: 600px;
+}
+.main_img img{
+	width: 100%;
+}
+
 
 
 /* ============= */
